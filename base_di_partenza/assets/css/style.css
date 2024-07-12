@@ -151,6 +151,37 @@ body {
         opacity: 0.3;
         font-weight: bold;
     }
-    
+    .article1 {
+        margin-left: 100px;
+        display: flex;
+        margin-top: 50px;
+    }
+    .left{
+        flex: 1.5;
+    }
+    .right {
+        flex: 1;
+    }
+    .mid {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .mid p {
+        padding-bottom: 10px;
+    }
+    .scritte {
+        flex: 2;
+    }
+    .immagini{
+        flex: 1;
+    }
+    .immagini img {
+        height: 120px;
+    }
+    .t1 {
+            font-weight: bold;
+            font-size: 1.2rem;
+       
+    }
   
 }
