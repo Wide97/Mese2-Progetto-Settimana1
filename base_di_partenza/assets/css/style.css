@@ -85,6 +85,32 @@ body {
     .title{
         margin-left: 100px;
     }
-
+    .trending {
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .article {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 10px; 
+        margin: 0 100px;
+        margin-bottom: 20px;
+    }
+    .one {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        align-items: center;
+    }
+    .two {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        align-items: center;
+    }
   
 }
