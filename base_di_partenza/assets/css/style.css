@@ -6,6 +6,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-family: "Spectral", serif;
+    
 }
 
 @media screen and (min-width:1000px) {
@@ -183,11 +184,72 @@ body {
     .t1 {
             font-weight: bold;
             font-size: 1.2rem;
+
        
     }
     .book{
         display: flex;
         margin-left: auto;
+    }
+    .a {
+        padding: 5px 5px;
+        background-color: rgba(155, 169, 175, 0.507); 
+        color: gray; 
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 4px;
+    }
+    .right h2 {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding: 5px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .hr {
+        border: 0;
+        height: 0.5px;
+        background: gray; 
+        opacity: 0.2;
+        margin-top: 10px; 
+        margin-bottom: 20px; 
+        width: 80%; 
+        margin-right: auto;
+    }
+    .ul {
+        margin-top: 20px;
+    }
+    .ul ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .ul li {
+        margin-right: 20px;
+        margin-top: 10px; 
+    }
+    
+    .group1 {
+        display: inline-block;
+    }
+    
+    .group2 {
+        display: inline-block;
+        clear: both; 
+        margin-right: 20px; 
+    }
+    
+    .group2:first-child {
+        margin-left: 0; 
     }
   
 }
