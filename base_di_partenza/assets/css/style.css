@@ -165,6 +165,7 @@ body {
     .mid {
         display: flex;
         margin-bottom: 30px;
+        margin-right: 10px;
     }
     .mid p {
         padding-bottom: 10px;
@@ -174,6 +175,7 @@ body {
     }
     .immagini{
         flex: 1;
+        margin-left: 15px;
     }
     .immagini img {
         height: 120px;
@@ -182,6 +184,10 @@ body {
             font-weight: bold;
             font-size: 1.2rem;
        
+    }
+    .book{
+        display: flex;
+        margin-left: auto;
     }
   
 }
