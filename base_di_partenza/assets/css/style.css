@@ -108,16 +108,25 @@ body {
         position: relative;
     }
     .one {
+        display: flex;
+        align-items: flex-start;
         flex: 1;
         padding: 20px;
-        border: 1px solid #ccc;
-        align-items: center;
+        border: 1px solid #ccc;   
     }
     .two {
+        display: flex;
         flex: 1;
         padding: 20px;
         border: 1px solid #ccc;
-        align-items: center;
     }
+    .number {
+        font-size: 2rem;
+        color: gray;
+        padding-right: 10px;
+        opacity: 0.3;
+        font-weight: bold;
+    }
+    
   
 }
